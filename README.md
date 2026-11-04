@@ -81,3 +81,11 @@ Homebrew 7 requires trust for third-party taps. If install is refused, run:
 ```sh
 brew trust windshiftapp/tap
 ```
+
+## License
+
+The packaging in this repository, meaning the formula and the bump script, is
+Apache-2.0. See [LICENSE](LICENSE).
+
+That is separate from the licence of the software it packages. Windshift and the
+`ws` CLI are AGPL-3.0, which is what the formula's `license` field records.
